@@ -1,0 +1,37 @@
+temp powershell script allow access
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Permenant fix
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+Projects => 
+1,Accordian Components
+2, Random color 
+3, star rating
+4, Image slider
+5, Load-more data
+6, Tree-view
+7, QR Code generator
+8, Light and Dark Mode
+9, Scroll Indicator
+10, Tabs
+11, Custom-modal-popup
+12, Github-profile-finder
+
+
+ 
+
+
+
+for star rating
+install react icons
+npm i react-icons
+
+
+for load more products
+below link provide dummy datas for demonstrate
+https://dummyjson.com/docs/products#products-limit_skip
+
+for QR-Code Generator
+npm install react-qr-code
+
