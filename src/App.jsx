@@ -21,6 +21,7 @@ import FeatureFlagGlobalState from "./components/Feature-Flag/context";
 import UseFetchHookTest from "./components/Use-Fetch/test";
 import UseOnclickOutSideTest from "./components/Use-Outside-Click/test";
 import UseWindowResizeTest from "./components/Use-Window-Resize/test";
+import ScrollToTopAndBottom from "./components/Scroll-Top-and_Bottom";
 
 const App = () => {
   const imageUrl = "https://picsum.photos/v2/list";
@@ -74,15 +75,19 @@ const App = () => {
         <FeatureFlags />
       </FeatureFlagGlobalState> */}
 
-      {/* Custom Hooks Section*/}
+      {/* Custom Hooks Section Begin*/}
       {/* Custom Fetch Hook */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
 
       {/* Custom Onclick Hook */}
-      <UseOnclickOutSideTest />
+      {/* <UseOnclickOutSideTest /> */}
 
       {/* Custom Window resize Hook */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+      {/* Custom Hooks Section End*/}
+
+      {/* Scroll To Top and Bottom */}
+      <ScrollToTopAndBottom />
     </div>
   );
 };
